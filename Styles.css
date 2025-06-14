@@ -7,5 +7,111 @@ Styles.css
     box-sizing: border-box;
 }
 
-/* Your full CSS goes here… */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f9f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://images.unsplash.com/photo-1601979031925-012d3f3c99c2?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Story Section */
+.story {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.story h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.story p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Impact Story Section */
+.impact-story {
+    background-color: #eaf7f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.impact-story h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.impact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.impact-image {
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Call-to-Action Section */
+.call-to-action {
+    background-color: #007c91;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.donate-button {
+    background-color: #fdd835;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #ffea00;
+}
